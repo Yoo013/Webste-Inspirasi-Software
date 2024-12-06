@@ -49,7 +49,6 @@ const Navbar = () => {
           <ul className='hidden lg:flex gap-[24px] font-medium lg:items-center  cursor-pointer'>
             <li onClick={() => setMenu("home")} className={menu === "home" ? "active" : " text-[#1111118b] hover:text-black all duration-300 ea"}><a href='#home'>Home</a></li>
             <li onClick={() => setMenu("layanan")} className={menu === "layanan" ? "active" : " text-[#1111118b] hover:text-black all duration-300 ea"}><a href='#layanan'>Layanan</a></li>
-            <li onClick={() => setMenu("portofolio")} className={menu === "portofolio" ? "active" : " text-[#1111118b] hover:text-black all duration-300 ea"}><a href='#portofolio'>Portofolio</a></li>
             <li onClick={() => setMenu("carapesan")} className={menu === "carapesan" ? "active" : " text-[#1111118b] hover:text-black all duration-300 ea"}><a href='#timeline'>Cara Pesan</a></li>
             <li onClick={() => setMenu("faq")} className={menu === "faq" ? "active" : " text-[#1111118b] hover:text-black all duration-300 ea"}><a href='#faq'>FAQs</a></li>
             <button className='w-32 h-12 hidden lg:flex gap-1 items-center justify-center text-sm bg-[#b6c02b] text-white rounded-lg'>
@@ -81,7 +80,6 @@ const Navbar = () => {
             <ul className="flex flex-col  ul">
               <li className='font-medium font-[Poppins]'><a href='#home'>Home</a></li>
               <li className='font-medium font-[Poppins]'><a href='#layanan'>Layanan</a></li>
-              <li className='font-medium font-[Poppins]'><a href='#layanan'>Portofolio</a></li>
               <li className='font-medium font-[Poppins]'><a href='#timeline'>Cara Pesan</a></li>
               <li className='font-medium font-[Poppins]'><a href='#faq'>FAQs</a></li>
             </ul>
