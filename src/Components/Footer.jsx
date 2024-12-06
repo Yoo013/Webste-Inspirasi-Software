@@ -17,7 +17,6 @@ const Footer = () => {
             <ul className='flex flex-col gap-1 mt-1'>
                 <li className='text-sm  font-medium text-[#6f7683] font-[Poppins]'><a href='#home'>Home</a></li>
                 <li className='text-sm  font-medium text-[#6f7683] font-[Poppins]'><a href='#layanan'>Layaan</a></li>
-                <li className='text-sm  font-medium text-[#6f7683] font-[Poppins]'><a href='#layanan'>Portofolio</a></li>
                 <li className='text-sm  font-medium text-[#6f7683] font-[Poppins]'><a href='#timeline'>Cara Pesan</a></li>
                 <li className='text-sm  font-medium text-[#6f7683] font-[Poppins]'><a href='#faq'>FAQs</a></li>
             </ul>
